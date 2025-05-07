@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A8F3700F2DAD9CC2007D510C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F36FF82DAD9CC1007D510C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F36FFF2DAD9CC1007D510C;
+			remoteInfo = "MacOS Maid";
+		};
+		A8F370192DAD9CC2007D510C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F36FF82DAD9CC1007D510C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F36FFF2DAD9CC1007D510C;
+			remoteInfo = "MacOS Maid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8F370002DAD9CC1007D510C /* MacOS Maid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacOS Maid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F3700E2DAD9CC2007D510C /* MacOS MaidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MacOS MaidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F370182DAD9CC2007D510C /* MacOS MaidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MacOS MaidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A8F370022DAD9CC1007D510C /* MacOS Maid */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MacOS Maid";
+			sourceTree = "<group>";
+		};
+		A8F370112DAD9CC2007D510C /* MacOS MaidTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MacOS MaidTests";
+			sourceTree = "<group>";
+		};
+		A8F3701B2DAD9CC2007D510C /* MacOS MaidUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MacOS MaidUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8F36FFD2DAD9CC1007D510C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F3700B2DAD9CC2007D510C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F370152DAD9CC2007D510C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8F36FF72DAD9CC1007D510C = {
+			isa = PBXGroup;
+			children = (
+				A8F370022DAD9CC1007D510C /* MacOS Maid */,
+				A8F370112DAD9CC2007D510C /* MacOS MaidTests */,
+				A8F3701B2DAD9CC2007D510C /* MacOS MaidUITests */,
+				A8F370012DAD9CC1007D510C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8F370012DAD9CC1007D510C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8F370002DAD9CC1007D510C /* MacOS Maid.app */,
+				A8F3700E2DAD9CC2007D510C /* MacOS MaidTests.xctest */,
+				A8F370182DAD9CC2007D510C /* MacOS MaidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8F36FFF2DAD9CC1007D510C /* MacOS Maid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F370222DAD9CC2007D510C /* Build configuration list for PBXNativeTarget "MacOS Maid" */;
+			buildPhases = (
+				A8F36FFC2DAD9CC1007D510C /* Sources */,
+				A8F36FFD2DAD9CC1007D510C /* Frameworks */,
+				A8F36FFE2DAD9CC1007D510C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A8F370022DAD9CC1007D510C /* MacOS Maid */,
+			);
+			name = "MacOS Maid";
+			packageProductDependencies = (
+			);
+			productName = "MacOS Maid";
+			productReference = A8F370002DAD9CC1007D510C /* MacOS Maid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8F3700D2DAD9CC2007D510C /* MacOS MaidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F370252DAD9CC2007D510C /* Build configuration list for PBXNativeTarget "MacOS MaidTests" */;
+			buildPhases = (
+				A8F3700A2DAD9CC2007D510C /* Sources */,
+				A8F3700B2DAD9CC2007D510C /* Frameworks */,
+				A8F3700C2DAD9CC2007D510C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F370102DAD9CC2007D510C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A8F370112DAD9CC2007D510C /* MacOS MaidTests */,
+			);
+			name = "MacOS MaidTests";
+			packageProductDependencies = (
+			);
+			productName = "MacOS MaidTests";
+			productReference = A8F3700E2DAD9CC2007D510C /* MacOS MaidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8F370172DAD9CC2007D510C /* MacOS MaidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F370282DAD9CC2007D510C /* Build configuration list for PBXNativeTarget "MacOS MaidUITests" */;
+			buildPhases = (
+				A8F370142DAD9CC2007D510C /* Sources */,
+				A8F370152DAD9CC2007D510C /* Frameworks */,
+				A8F370162DAD9CC2007D510C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F3701A2DAD9CC2007D510C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A8F3701B2DAD9CC2007D510C /* MacOS MaidUITests */,
+			);
+			name = "MacOS MaidUITests";
+			packageProductDependencies = (
+			);
+			productName = "MacOS MaidUITests";
+			productReference = A8F370182DAD9CC2007D510C /* MacOS MaidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8F36FF82DAD9CC1007D510C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					A8F36FFF2DAD9CC1007D510C = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					A8F3700D2DAD9CC2007D510C = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = A8F36FFF2DAD9CC1007D510C;
+					};
+					A8F370172DAD9CC2007D510C = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = A8F36FFF2DAD9CC1007D510C;
+					};
+				};
+			};
+			buildConfigurationList = A8F36FFB2DAD9CC1007D510C /* Build configuration list for PBXProject "MacOS Maid" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8F36FF72DAD9CC1007D510C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A8F370012DAD9CC1007D510C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8F36FFF2DAD9CC1007D510C /* MacOS Maid */,
+				A8F3700D2DAD9CC2007D510C /* MacOS MaidTests */,
+				A8F370172DAD9CC2007D510C /* MacOS MaidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8F36FFE2DAD9CC1007D510C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F3700C2DAD9CC2007D510C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F370162DAD9CC2007D510C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8F36FFC2DAD9CC1007D510C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F3700A2DAD9CC2007D510C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F370142DAD9CC2007D510C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8F370102DAD9CC2007D510C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F36FFF2DAD9CC1007D510C /* MacOS Maid */;
+			targetProxy = A8F3700F2DAD9CC2007D510C /* PBXContainerItemProxy */;
+		};
+		A8F3701A2DAD9CC2007D510C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F36FFF2DAD9CC1007D510C /* MacOS Maid */;
+			targetProxy = A8F370192DAD9CC2007D510C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A8F370202DAD9CC2007D510C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8F370212DAD9CC2007D510C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A8F370232DAD9CC2007D510C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MacOS Maid/MacOS_Maid.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Regulating.MacOS-Maid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A8F370242DAD9CC2007D510C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MacOS Maid/MacOS_Maid.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Regulating.MacOS-Maid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A8F370262DAD9CC2007D510C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Regulating.MacOS-MaidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacOS Maid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacOS Maid";
+			};
+			name = Debug;
+		};
+		A8F370272DAD9CC2007D510C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Regulating.MacOS-MaidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacOS Maid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacOS Maid";
+			};
+			name = Release;
+		};
+		A8F370292DAD9CC2007D510C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Regulating.MacOS-MaidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MacOS Maid";
+			};
+			name = Debug;
+		};
+		A8F3702A2DAD9CC2007D510C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Regulating.MacOS-MaidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MacOS Maid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8F36FFB2DAD9CC1007D510C /* Build configuration list for PBXProject "MacOS Maid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F370202DAD9CC2007D510C /* Debug */,
+				A8F370212DAD9CC2007D510C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F370222DAD9CC2007D510C /* Build configuration list for PBXNativeTarget "MacOS Maid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F370232DAD9CC2007D510C /* Debug */,
+				A8F370242DAD9CC2007D510C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F370252DAD9CC2007D510C /* Build configuration list for PBXNativeTarget "MacOS MaidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F370262DAD9CC2007D510C /* Debug */,
+				A8F370272DAD9CC2007D510C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F370282DAD9CC2007D510C /* Build configuration list for PBXNativeTarget "MacOS MaidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F370292DAD9CC2007D510C /* Debug */,
+				A8F3702A2DAD9CC2007D510C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8F36FF82DAD9CC1007D510C /* Project object */;
+}
